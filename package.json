@@ -1,0 +1,30 @@
+{
+  "name": "dot-com-retail",
+  "version": "1.0.0",
+  "description": "Full-featured e-commerce platform",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:shopper": "turbo run dev --filter=shopper-app",
+    "dev:warehouse": "turbo run dev --filter=warehouse-app",
+    "dev:all": "turbo run dev --parallel",
+    "build:all": "turbo run build",
+    "type-check": "turbo run type-check",
+    "lint:all": "turbo run lint"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^8.44.1",
+    "@typescript-eslint/parser": "^8.44.1",
+    "eslint": "^9.36.0",
+    "prettier": "^3.6.2",
+    "turbo": "^2.5.8",
+    "typescript": "^5.9.2"
+  },
+  "packageManager": "npm@9.6.0"
+}

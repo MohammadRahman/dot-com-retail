@@ -1,0 +1,20 @@
+{
+  "name": "@dotcom-retail/eslint-config",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+   "scripts": {
+    "type-check": "echo \"No type checking needed for eslint config\""
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "eslint-config-next": "^14.0.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-react": "^7.33.0",
+    "eslint-config-turbo": "^1.10.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.45.0"
+  }
+}
